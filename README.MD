@@ -1,49 +1,89 @@
-# flat-facts-judge
+Ótima escolha de tecnologias! Aqui está um modelo de **`README.md`** profissional para seu projeto, destacando os recursos, tecnologias e instruções de configuração. Você pode adaptar conforme necessário:
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+---
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+# 📊 **Admin Dashboard - Real-Time Data & CRM**  
 
-## Getting Started
+Um dashboard administrativo moderno com **dados em tempo real**, gráficos interativos, gerenciamento de eventos, Kanban e funcionalidades CRM. Desenvolvido com **React + Vite.js** e **Refine** para alta performance e escalabilidade.  
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+![Preview](https://images.unsplash.com/photo-1687603917313-ccae1a289a9d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) 
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+---
 
-## Available Scripts
+## 🚀 **Recursos**  
+- **Tempo Real**: Atualização dinâmica de dados via WebSocket ou polling.  
+- **Visualizações**: Gráficos (usando Chart.js, ECharts ou ApexCharts).  
+- **Kanban Board**: Gerenciamento de tarefas estilo Trello (com drag-and-drop).  
+- **CRM**: Gerenciamento de clientes, contatos e interações.  
+- **Eventos**: Calendário integrado (FullCalendar ou similar).  
+- **UI/UX**: Componentes pré-built do Refine (Ant Design/MUI) + temas customizáveis.  
+- **Autenticação**: Login com JWT, OAuth (Google/GitHub) ou provedores empresariais.  
 
-### Running the development server.
+---
 
-```bash
-    npm run dev
-```
+## 🛠️ **Tecnologias**  
+| **Frontend**       | **Backend/Data**      | **Ferramentas**          |  
+|---------------------|-----------------------|--------------------------|  
+| React 18            | Refine                | Vite.js (build tool)     |  
+| TypeScript          | REST/GraphQL API      | Git                      |  
+| Refine (Ant Design) | Supabase/Firebase     | ESLint + Prettier        |  
+|                     |                       |                          |  
 
-### Building for production.
+---
 
-```bash
-    npm run build
-```
+## 📦 **Como Executar**  
 
-### Running the production server.
+### **Pré-requisitos**  
+- Node.js v18+  
+- Yarn ou npm  
+- Chave API do seu backend (ex.: Supabase, Strapi)  
 
-```bash
-    npm run start
-```
+### **Passos**  
+1. Clone o repositório:  
+   ```bash  
+   git clone https://github.com/seu-usuario/admin-dashboard.git  
+   cd admin-dashboard  
+   ```  
 
-## Learn More
+2. Instale as dependências:  
+   ```bash  
+   yarn  # ou npm install  
+   ```  
 
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
+3. Configure as variáveis de ambiente:  
+   Crie um arquivo `.env` baseado no `.env.example` e preencha as credenciais.  
 
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
+4. Inicie o servidor de desenvolvimento:  
+   ```bash  
+   yarn dev  # ou npm run dev  
+   ```  
+   Acesse: [http://localhost:5173](http://localhost:5173).  
 
-## License
+---
 
-MIT
+## 🧩 **Estrutura do Projeto**  
+```  
+src/  
+├── assets/            # Imagens/fontes  
+├── components/        # Componentes reutilizáveis  
+├── pages/             # Rotas principais (Dashboard, CRM, Kanban)  
+├── hooks/             # Hooks customizados  
+├── providers/         # Configurações do Refine   
+├── utils/             # Funções auxiliares  
+└── App.tsx            # Configuração principal do Refine  
+```  
+
+---
+
+## 🌟 **Destaques do Refine**  
+- **✨ Geração de CRUD automático** para suas APIs.  
+- **🔒 Autenticação pronta**.  
+- **📊 Integração nativa com bibliotecas de gráficos**.  
+
+--- 
+
+### 🔗 **Links Úteis**  
+- [Documentação do Refine](https://refine.dev/docs/)  
+- [Exemplos de Dashboards com Refine](https://github.com/refinedev/refine/tree/master/examples)  
+
+--- 
