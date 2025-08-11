@@ -4,8 +4,8 @@ import { API_BASE, API_URL, dataProvider } from './data';
 
 
 export const authCredentials = {
-    email: "johndoe@gmail.com",
-    password: "johndoe2025"
+    email: "michael.scott@dundermifflin.com",
+    password: "demodemo"
 }
 
 export const authProvider: AuthBindings = {
@@ -18,12 +18,12 @@ export const authProvider: AuthBindings = {
                 meta: {
                     variables: { email },
                     rawQuery: `
-                        mutation Login($email: String!){
-                            login(loginInput: {email: $string}){
-                                accessToken
-                            }
-                        }
-                    `
+                    mutation Login($email: String!) {
+                      login(loginInput: {email: $email}) {
+                        accessToken
+                      }
+                    }
+                  `
                 }
             })
             // salva o token no localStorage
