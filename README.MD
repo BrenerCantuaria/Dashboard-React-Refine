@@ -1,5 +1,4 @@
-Ótima escolha de tecnologias! Aqui está um modelo de **`README.md`** profissional para seu projeto, destacando os recursos, tecnologias e instruções de configuração. Você pode adaptar conforme necessário:
-
+[👨‍💻⚡EM DENSEVOLVIMENTO]
 ---
 
 # 📊 **Admin Dashboard - Real-Time Data & CRM**  
